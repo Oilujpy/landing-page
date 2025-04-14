@@ -8,6 +8,7 @@ html {
 body {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .header {
@@ -17,6 +18,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 30px;
 }
 
 .header-title {
@@ -29,9 +31,21 @@ ul {
     display: flex;
     list-style: none;
     gap: 12px;
+    margin: 0;
 }
 
 a {
     text-decoration: none;
     color: #E5E7EB;
+}
+
+.footer-container{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
 }
