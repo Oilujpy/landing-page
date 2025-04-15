@@ -81,6 +81,10 @@ a {
     color: #E5E7EB;
 }
 
+.hero-img img {
+    border-radius: 12px;
+}
+
 .hero-button button {
     background-color: #3882F6;
     border: #3882F6;
@@ -90,6 +94,49 @@ a {
     padding: 6px 32px;
     border-radius: 6px;
     margin-top: 8px;
+}
+
+/* Information */
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1100px;
+    gap: 30px;
+}
+
+.info-details {
+    display: flex;
+    gap: 50px;
+    font-size: 12px;
+}
+
+.info-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 150px;
+    gap: 10px;
+}
+
+.info-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.info-details img {
+    width: 150px;
+    height: 150px;
+    border-radius: 12px;
 }
 
 /* Footer */
