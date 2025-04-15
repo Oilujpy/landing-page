@@ -116,6 +116,7 @@ a {
     display: flex;
     gap: 50px;
     font-size: 12px;
+    padding-bottom: 50px;
 }
 
 .info-img {
@@ -164,6 +165,44 @@ a {
     font-size: 18px;
     font-weight: bold;
     font-style: normal;
+}
+
+/* Action */
+
+.action-container {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.action {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 1100px;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    border-radius: 12px;
+}
+
+.action-title {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.action-button {
+    display: flex;
+    align-items: center;
+}
+
+.action-button button {
+    background-color: #3882F6;
+    border: 1px solid #F9FAF8;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 6px 24px;
+    border-radius: 6px;
 }
 
 /* Footer */
